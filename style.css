@@ -150,3 +150,78 @@ button {
     margin-top: 12px;
     cursor: pointer;
 }
+
+.ofertas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+
+.ofertas h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ofertas h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.ofertas span {
+    font-weight: bold;
+}
+
+.cinco-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-rj {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.quatro-imagens {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.imagem-rj img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quatro-imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* propriedade que faz as imagens ocuparem todo o elemento que as envolve */
+}
+
+figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 50%);
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+}
