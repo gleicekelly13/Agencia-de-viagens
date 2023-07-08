@@ -233,18 +233,18 @@ figcaption {
     justify-content: space-between;
 }
 
-.duas-imagens figure {
+.duas-imagens figure { /* Área  que envolve cada imagem */
     width: calc(50% - 10px);
     height: 100%;
 }
 
-.duas-imagens img {
+.duas-imagens img {  /* A própria imagem */
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.duas-imagens div {
+.duas-imagens div { /* Área que envolve os textos */
     width: 100%;
     background-color: #fff;
     padding: 20px;
@@ -258,4 +258,44 @@ figcaption {
     font-size: 14px;
     color: grey;
     margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+
+.rodape {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.contatos h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contatos div {  /* Área que agrupa o ícone e o texto */
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contatos img {
+    width: 18px;
+}
+
+.contatos span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
 }
