@@ -151,7 +151,7 @@ button {
     cursor: pointer;
 }
 
-.ofertas {
+.ofertas, .anuncios {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -159,12 +159,12 @@ button {
     margin: 32px auto 0 auto;
 }
 
-.ofertas h2 {
+.ofertas h2, .anuncios h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.ofertas h3 {
+.ofertas h3, .anuncios h3 {
     font-weight: normal;
     font-size: 16px;
     margin-bottom: 15px;
@@ -224,4 +224,38 @@ figcaption {
     color: #fff;
     font-size: 17px;
     padding: 5px 10px;
+}
+
+.duas-imagens {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duas-imagens figure {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.duas-imagens img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.duas-imagens div {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.duas-imagens h3 {
+    font-size: 16px;
+}
+
+.duas-imagens p {
+    font-size: 14px;
+    color: grey;
+    margin-top: 15px;
 }
