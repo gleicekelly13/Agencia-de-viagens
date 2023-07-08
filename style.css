@@ -76,3 +76,77 @@ header {
     color: #fff;
     margin-left: 5px;
 }
+
+.formulario-conteudo {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px; /* o espaçamento não deve alterar o tamanho do elemento (largura + espaçamento = 100%) */
+}
+
+.formulario-conteudo h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+}
+
+input , select {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+input {
+    padding: 0 5px;
+}
+
+select {
+    padding: 0 3px;
+}
+
+.formulario-data, .listas-selecao {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-data div, .listas-selecao div {
+    width: calc(50% - 10px);
+}
+
+.marcacao-unica, .marcacao-multipla {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.marcacao-unica div, .marcacao-multipla div {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.marcacao-unica input, .marcacao-multipla input {
+    width: 15px;
+}
+
+.marcacao-unica label, .marcacao-multipla label {
+    margin-left: 8px;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    margin-top: 12px;
+    cursor: pointer;
+}
