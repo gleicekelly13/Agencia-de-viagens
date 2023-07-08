@@ -28,20 +28,20 @@
 
                     <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
                         <label>Nome</label>
-                        <input type="text" name="nome" placeholder="Nome Completo">
+                        <input type="text" name="nome" placeholder="Nome Completo" required>
                         <label>Email</label>
-                        <input type="email" name="email" placeholder="Email para contato">
+                        <input type="email" name="email" placeholder="Email para contato" required>
                         <label>Celular</label>
-                        <input type="number" name="celular" placeholder="(xx) xxxxx-xxxx">
+                        <input type="number" name="celular" placeholder="(xx) xxxxx-xxxx" required>
 
                         <div class="formulario-data">
                             <div>
                                 <label>Data da ida</label><br>
-                                <input type="number" name="partida" placeholder="dd/mm/aaaa">
+                                <input type="number" name="partida" placeholder="dd/mm/aaaa" required>
                             </div>
                             <div>
                                 <label>Data da volta</label><br>
-                                <input type="number" name="chegada" placeholder="dd/mm/aaaa">
+                                <input type="number" name="chegada" placeholder="dd/mm/aaaa" required>
                             </div>
                         </div>
 
@@ -49,8 +49,10 @@
                             <div>
                                 <label>Origem</label>
                                 <select name="origem">
-                                    <option value="">Partindo de</option>
-                                    <option value="PE">Recife</option>
+                                    <option selected>Partindo de</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="GO">Goiás</option>
                                     <option value="RJ">Rio de Janeiro</option>
                                     <option value="SP">São Paulo</option>
                                 </select>
@@ -59,8 +61,10 @@
                             <div>
                                 <label>Destino</label>
                                 <select name="destino">
-                                    <option value="">Indo para</option>
-                                    <option value="MG">Belo Horizonte</option>
+                                    <option selected>Indo para</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="GO">Goiás</option>
                                     <option value="RJ">Rio de Janeiro</option>
                                     <option value="SP">São Paulo</option>
                                 </select>
