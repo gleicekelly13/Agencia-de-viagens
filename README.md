@@ -31,6 +31,7 @@
   <li>Estrutura e estilização de formulários.</li>
   <li>Utilização das tags 'figure' e 'figcaption'.</li>
   <li>Continuar aprimorando a prática do flexbox.</li>
+  <li>Aplicação da responsividade.</li>
 </ul>
 
 <h2 align="center"> :file_folder: Acesso ao projeto </h2>
