@@ -1,5 +1,6 @@
 <h1 align="center">Agência de viagens</h1>
 <h2 align="center">:page_facing_up: Descrição do projeto</h2>
+<p>Projeto do curso de Html e CSS da Devmedia, cuja proposta era criar uma página web capaz de enviar dados para um servidor através de formulários.</p>
 <br>
 
 ## :desktop_computer: Desktop design
