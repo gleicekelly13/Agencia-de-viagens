@@ -23,6 +23,7 @@
 <br>
 
 <h2 align="center">:hammer: Funcionalidades do projeto </h2>
+<p>A página apresenta um formulário que envia dados ao servidor, e foi desenvolvida com um layout responsivo para se adaptar a diferentes tamanhos de telas.</p>
 
 <h2 align="center"> :file_folder: Acesso ao projeto </h2>
 <p> Você pode acessar o projeto final clicando aqui: https://agencia-de-viagens-beta.vercel.app/ </p>
